@@ -7,5 +7,5 @@ It includes the functionality of NETEM (for limitation of Bandwidth, adding Late
 
 In order to use netnrd do following: 
 1. Copy the executable to your home folder;
-2. use <chmod 700 netnrd> in order to be able to execcute it;
-3. run the app through the terminal using sudo <sudo ./netnrd>.
+2. use <chmod 700 netnrd_git> in order to be able to execcute it;
+3. run the app through the terminal using sudo <sudo ./netnrd_git>.
