@@ -620,7 +620,7 @@ class App(Tk):
             ipf1 = open("/etc/sysctl.conf", "w+")
             ipf1.write(ipf)
 
-            dhcpser = "\nINTERFACESv4 = {}{}{}".format(sqg2, req1, sqg2)
+            dhcpser = "INTERFACESv4 = {}{}{}".format(sqg2, req1, sqg2)
             dhcpser1 = open("/etc/default/isc-dhcp-server", "w+")
             dhcpser1.write(dhcpser)
 
@@ -667,7 +667,7 @@ class App(Tk):
             sqg = "{"
             sqg1 = "}"
 
-            dhcpser = "\nINTERFACESv4 = {}{}{}".format(sqg2, req1, sqg2)
+            dhcpser = "INTERFACESv4 = {}{}{}".format(sqg2, req1, sqg2)
             dhcpser1 = open("/etc/default/isc-dhcp-server", "w+")
             dhcpser1.write(dhcpser)
 
