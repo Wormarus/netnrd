@@ -7,7 +7,7 @@ It includes the functionality of NETEM (for limitation of Bandwidth, adding Late
 
 In order to use netnrd do following: 
 1. Copy the executable to your home folder;
-2. use <chmod 700 netnrd_git> in order to be able to execcute it;
-3. run the app through the terminal using sudo <sudo ./netnrd_git>;
-4. Select <Setup> tab within the app and follow it from top to bottom from left to right;
+2. use <chmod 700 netnrd_git_final> in order to be able to execcute it;
+3. run the app through the terminal using sudo <sudo ./netnrd_git_final>;
+4. Use <Setup> tab within the app and follow it from top to bottom from left to right;
 5. After the setup is done, select NAT type in <UNTU> section of the app to get ip on destination device & apply any limitations that you want.
